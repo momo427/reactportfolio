@@ -1,10 +1,19 @@
 import React from "react";
-import Portfolio from "./portfolio"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Project from "./components/Project";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
- <Portfolio />
-  )
+    <>
+      <Navigation />
+      <Header />
+      <Project />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
